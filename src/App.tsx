@@ -33,7 +33,7 @@ export default () => {
             <Stack.Screen
               name="LoginScreen"
               component={LoginScreen}
-              options={{headerShown: true, title: 'Login'}}
+              options={{headerShown: false, title: 'Login'}}
             />
           </Stack.Navigator>
         </NavigationContainer>
